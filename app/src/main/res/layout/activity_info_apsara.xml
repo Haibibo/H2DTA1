@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapsara"
+    tools:context="com.example.xuka.h2dta1.InfoAloha"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="NHÀ HÀNG APSARA"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  -   Thời gian mở cửa : 08:00 - 23:00"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  -   Giá: 50.000đ - 220.000đ"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   -  Menu:"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Gà kho gimg"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Thịt heo kho tàu"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Cải ngọt xào tỏi"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Canh chua thịt"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Cơm trắng"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Dưa hấu và xoài"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Gỏi miến bò"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:textSize="19dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hình món ăn từ cộng đồng"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/apa"
+            />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_margin="10dp"
+            android:src="@drawable/apb" />
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/apc"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/apd"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/ape"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/apf"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/apg"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/aph"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/api"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/apj"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+

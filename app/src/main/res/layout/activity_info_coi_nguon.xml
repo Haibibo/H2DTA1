@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmammamia"
+    tools:context="com.example.xuka.h2dta1.InfoAloha"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="NHÀ HÀNG MAMMA MIA"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  -   Thời gian mở cửa : 06:00 - 22:00"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  -   Giá: 35.000đ - 70.000đ"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   -  Menu:"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Le chesse burger"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Pink lover"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Caramel ice blended"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  French breakfast"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Fresh for happiness"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Le bacon chesse burger"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Le blue burger"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Pasta carbonara"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Caramel machiato"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Antioxidan fantasy"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hình món ăn từ cộng đồng"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/mama"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/mamb"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/mamc"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/mamd"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/mame"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/mamf"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/mamg"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/mamh"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/mami"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/mamj"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+

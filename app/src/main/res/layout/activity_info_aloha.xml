@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgaloha"
+    tools:context="com.example.xuka.h2dta1.InfoAloha"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="NHÀ HÀNG ALOHA"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  -   Thời gian mở cửa : 10:00 - 22:00"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  -   Giá: 20.000đ - 50.000đ"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   -  Menu:"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Bánh gạo tokbokki"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Cơm trộn Aloha"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Bánh gạo thập cẩm sốt phô mai"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Cơm thêm"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Kimbap chiên"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Mì đen Jajang Muyn"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Cơm trộn Bibimbap"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Bánh cá cay"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Bạch tuột chua cay"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Kimbap truyền thống"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hình món ăn từ cộng đồng"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/e"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/t"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/w"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/r"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/q"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/y"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/u"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/i"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/o"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/p"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+

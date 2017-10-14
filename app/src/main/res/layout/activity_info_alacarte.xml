@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounala"
+    tools:context="com.example.xuka.h2dta1.InfoAloha"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="italic"
+            android:text="CÀ PHÊ ALACARTE"
+            android:textColor="@color/colorAccent"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                       -   Thời gian mở cửa : 10:00 - 22:00"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                                             -   Giá: 200.000đ - 500.000đ"/>
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                                             -  Menu:"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  *  Coffe:"/>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 *  Capuchino"/>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 *  Lavazza"/>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 *  Chocolate"/>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                                      *  Tea:"/>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                                                *  Vietnamese Tam Chau Tea"/>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                                                *  Griphon Tea"/>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  * Water"/>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 *  Alba Still Water"/>
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 *  Acqua Panna Water"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hình món ăn từ cộng đồng"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/alaa"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/alab"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/alac"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/alad"
+            />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/alae"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/alaf"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/alag"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/alah"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/alai"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/alaj"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
